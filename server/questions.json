@@ -1,0 +1,22 @@
+[
+    {
+        "question": "What is the capital of France?",
+        "choices": ["Paris", "Berlin", "Rome", "Madrid"],
+        "correct": "Paris"
+    },
+    {
+        "question": "Which planet is known as the Red Planet?",
+        "choices": ["Mars", "Jupiter", "Saturn", "Venus"],
+        "correct": "Mars"
+    },
+    {
+        "question": "What is the largest mammal?",
+        "choices": ["Blue Whale", "Elephant", "Giraffe", "Hippopotamus"],
+        "correct": "Blue Whale"
+    },
+    {
+        "question": "What company sponsored Space Mountain at Walt Disney World during 2000?",
+        "choices": ["FedEx", "RCA", "Mesa Verde", "Raytheon"],
+        "correct": "FedEx"
+    }
+]

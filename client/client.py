@@ -45,7 +45,7 @@ def handle_send(sock):
             msg = input("> ")
             if not should_run:
                 break
-            if msg.lower() == "exit":
+            if msg.lower() == "/exit":
                 print("Disconnecting...")
                 should_run = False
                 sock.shutdown(socket.SHUT_RDWR)

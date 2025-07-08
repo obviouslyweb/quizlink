@@ -1,7 +1,7 @@
 import socket
 import threading
 import sys
-import readline  # Use pyreadline3 on Windows if needed
+import readline
 
 print("Welcome to the Quiz Game Client!")
 

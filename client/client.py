@@ -3,7 +3,7 @@ import threading
 import sys
 import readline
 
-print("Welcome to the Quiz Game Client!")
+print("Welcome to the QuizLink Client!")
 
 HOST = input("Please enter a host IP. For localhost, enter nothing: ")
 if HOST == "":

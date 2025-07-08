@@ -49,7 +49,7 @@ def handle_client(conn, addr):
                 shuffled_choices = question["choices"].copy()
                 random.shuffle(shuffled_choices)
 
-                formatted = f"\n📢 A new quiz has started!\nQUESTION: {question['question']}\n"
+                formatted = f"\nA new quiz has started!\nQUESTION: {question['question']}\n"
                 for idx, choice in enumerate(shuffled_choices, 1):
                     formatted += f"{idx}. {choice}\n"
 
